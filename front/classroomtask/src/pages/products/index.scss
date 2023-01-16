@@ -1,0 +1,33 @@
+.details{
+    display: flex;
+    padding: 30px 20px;
+    .image{
+
+        img{
+            height: 400px;
+            width: 350px;
+            border: 2px solid blue;
+            
+        }
+    }
+    .cardText{
+        margin-left: 150px;
+    }
+    button{
+        height: 30px;
+        padding: 5px 25px;
+        position: relative;
+        top: 400px;
+        left: 200px;
+        background-color: crimson;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        transition: 0.3s;
+        &:hover{
+            transform: scale(1.03);
+            background-color: rgb(178, 0, 36);
+        }
+
+    }
+}

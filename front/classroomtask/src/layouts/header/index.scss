@@ -1,0 +1,20 @@
+.header{
+    background-color: rgb(177, 204, 231);
+    padding: 10px 15px;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    display: flex;
+    justify-content: space-between;
+    ul{
+        display: flex;
+        justify-content: left;
+        li{
+            list-style: none;
+            padding-left: 10px;
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+        }
+    }
+}
